@@ -1,0 +1,22 @@
+% \usepackage{todonotes}
+
+\usepackage{graphicx}
+\usepackage[dvipsnames]{xcolor}
+
+% -------------------- Comments
+% replace "fist" and "second"  with this paper's authors
+% 
+\newcommand{\first}[1]{{\color{green}[First: #1]}}
+\newcommand{\second}[1]{{\color{blue}[Second: #1]}}
+\newcommand{\sarah}[1]{{\color{RoyalPurple}[Sarah: #1]}}
+
+
+% -------------------- Notes
+
+\usepackage[colorinlistoftodos]{todonotes}
+\newcommand{\todocite}[1] {\todo[color=green]{#1}}
+\newcommand{\todocheck}[1]{\todo[color=blue!30!white]{#1}}
+\newcommand{\todofig}[1] {\todo[color=orange]{#1}}
+\newcommand{\todous}[1] {\todo[color=red]{#1}}
+\newcommand{\todiscuss}[1] {\todo[color=blue!10!white]{#1}}
+\newcommand{\todonote}[1] {\todo[color=cyan]{#1}}
